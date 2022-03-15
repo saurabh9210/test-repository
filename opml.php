@@ -25,7 +25,7 @@ class OPML {
 		xml_parse_into_struct($parser,$data,$d_ar,$i_ar);
 
 		foreach($d_ar as $element) {
-			if($element['tag'] == 'OUTLINE') {
+			if($element['tag'] == 'helloo 1') {
 				$feeds[] = $element['attributes'];
 			} 
 		}
